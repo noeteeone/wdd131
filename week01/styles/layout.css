@@ -1,0 +1,65 @@
+.parent {
+    display: grid;
+    grid-template: 1fr 1fr 1fr 1fr / 1fr 1fr 1fr 1fr;
+    width: max-content;
+    height: auto;
+}
+
+.pink-section {
+    padding: 1rem;
+    grid-column: 1 / 5;
+    background-color: pink;
+    text-align: left;    
+}
+
+.home {
+    padding: 1rem;
+    grid-column: 1 / 2;
+    background-color: lightblue;
+    text-align: center;
+    
+}
+
+.projects {
+    padding: 1rem;
+    grid-column: 2 / 3;
+    background-color: lightgreen;
+    text-align: center;
+}
+
+.services {
+    padding: 1rem;
+    grid-column: 3 / 4;
+    background-color: yellow;
+    text-align: center;
+}
+
+.contact-us {
+    padding: 1rem;
+    grid-column: 4 / 5;
+    background-color: yellowgreen;
+    text-align: center;
+}
+
+.section-coral {
+    padding: 1rem;
+    grid-column: 1 / 4;
+    background-color: coral;
+    text-align: left;
+    height: 5rem;
+}
+
+.aside {
+    padding: 1rem;
+    grid-column: 4 / 5;
+    background-color: brown;
+    text-align: left;
+    height: 5rem;
+}
+
+.green-section {
+    padding: 1rem;
+    grid-column: 1 / 5;
+    background-color: green;
+    text-align: center;
+}
